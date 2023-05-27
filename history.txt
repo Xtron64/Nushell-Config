@@ -1,0 +1,78 @@
+ls
+cd Programming/Snekkie-Tools/snekkie_tools_py
+ls
+bat README.md
+bat LICENSE
+cd src
+cd debug
+bat log_bug.py
+pfetch
+program
+python3 log_bug.py
+python3 
+cd
+ls
+bat debug_logs.txt
+rm debug_logs.txt
+ls
+cd ble.sh
+ls
+bat LICENSE.md
+ls
+propgram
+program
+cd Programming/
+ls
+z Python-Practice
+cd Python-Practice
+ls
+bat LICENSE README.md
+ls
+cd hello_world
+ls
+cd src
+ls
+sudo pacman -S caja
+caja
+ls
+exa
+zoxide
+zoxide init nu
+zoxide init nushell
+ls
+lsblk
+ls
+help
+man nu
+man nushell
+kill me
+kill 1
+kill 111
+kill *
+poweroff
+echo $nu.config-path
+nvim $nu.config-path
+nvim $nu.env-path
+update
+pfetch
+neofetch
+echo $0
+nvim .bashrc
+ls#
+ls
+whoami
+fd cargo | fzf
+nvim $nu.env-path
+nvim $nu.config-path
+z Programming
+nvim ~/.config/nushell/aliases
+cd Programming
+cd Xtron64/
+ls
+cd ~/.config/nushell
+ls
+git init message="Hello Nushell"
+ls
+rm -rf `message=Hello Nushell/`
+ls
+git init
