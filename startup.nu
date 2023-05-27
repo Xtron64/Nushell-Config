@@ -1,0 +1,2 @@
+pfetch
+echo "Welcome, $USER."
