@@ -1,2 +1,2 @@
-pfetch
+fastfetch
 echo "Welcome, $USER."
