@@ -1,6 +1,6 @@
 # Nushell Config File
 #
-# version = 0.78.0
+# version = 0.80.0
 
 # For more information on defining custom themes, see
 # https://www.nushell.sh/book/coloring_and_theming.html
@@ -534,11 +534,15 @@ let-env config = {
     }
   ]
 }
+# Path
+source ~/.config/nushell/path.nu
 # Enables zoxide:
 source ~/.zoxide.nu
 # Enables Starship:
 source ~/.cache/starship/init.nu
 # Startup
 source ~/.config/nushell/startup.nu
-# Aliases:
+# Aliases
 source ~/.config/nushell/aliases.nu
+# Broot
+source /home/xtron64/.config/broot/launcher/nushell/br

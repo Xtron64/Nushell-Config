@@ -1,0 +1,9 @@
+let-env PATH = ($env.PATH | append "~/.cargo/bin")
+let-env PROGRAM = ~/Programming
+let-env SCRIPTS = ~/Scripts
+let-env BASH_CONFIG = ~/.config/bash
+let-env NUSHELL_CONFIG = ~/.config/nushell
+let-env FISH_CONFIG = ~/.config/fish
+let-env ZSH-CONFIG = ~/.config/zsh
+let-env NVIM_CONFIG = ~/.config/nvim
+let-env LICENSE	= ~/Programming/Snekkie-Template/LICENSE
