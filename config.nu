@@ -6,7 +6,7 @@
 # https://www.nushell.sh/book/coloring_and_theming.html
 # And here is the theme collection
 # https://github.com/nushell/nu_scripts/tree/main/themes
-let dark_theme = {
+let $dark_theme = {
     # color for nushell primitives
     separator: white
     leading_trailing_space_bg: { attr: n } # no fg, no bg, attr none effectively turns this off
@@ -88,7 +88,7 @@ let dark_theme = {
     shape_variable: purple
 }
 
-let light_theme = {
+let $light_theme = {
     # color for nushell primitives
     separator: dark_gray
     leading_trailing_space_bg: { attr: n } # no fg, no bg, attr none effectively turns this off
@@ -177,7 +177,7 @@ let light_theme = {
 
 
 # The default config record. This is where much of your global configuration is setup.
-let-env config = {
+$env.config = {
   # true or false to enable or disable the welcome banner at startup
   show_banner: false
   ls: {
@@ -536,13 +536,9 @@ let-env config = {
 }
 # Path
 source ~/.config/nushell/path.nu
-# Enables zoxide:
-source ~/.zoxide.nu
+# Aliases
+source ~/.config/nushell/aliases.nu
 # Enables Starship:
 source ~/.cache/starship/init.nu
 # Startup
 source ~/.config/nushell/startup.nu
-# Aliases
-source ~/.config/nushell/aliases.nu
-# Broot
-source /home/xtron64/.config/broot/launcher/nushell/br

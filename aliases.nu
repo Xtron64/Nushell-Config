@@ -1,7 +1,4 @@
-# Source my scripts (might as well add these here for now)
-source ~/Scripts/Update.nu
-source ~/Scripts/Navigate.nu
 # Change commands
-alias cd = z
 alias ls = exa
 alias man = batman
+alias fastfetch = fastfetch --load-config ~/.config/fastfetch-config --logo ~/Pictures/ASCII/Fastfetch/Tux.fastfetch.asc --color cyan

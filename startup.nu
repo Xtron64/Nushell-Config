@@ -1,3 +1,4 @@
 clear
 fastfetch
-echo "Welcome, $USER."
+print ($"(ansi cyan)Dev tasks:(ansi reset)")
+glow ~/Programming/Tasks.md
